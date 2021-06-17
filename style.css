@@ -1,0 +1,355 @@
+
+body{
+    background: url(./fundo.png);
+    background-size: cover;
+}
+header{
+    padding: 40px 70px 0 70px;
+}
+header .container{
+    background-color: white;
+    padding: 10px; 
+}
+.nav-top{
+    height: 63px;
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+}
+.icones{
+    color: rgb(0, 0, 0);   
+    width: 15px;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    margin-right: 5px;
+    justify-content: flex-end;
+    text-align: center;
+
+}
+.icones i{
+    margin: 0 10px 0 10px;
+    width: 30px;
+    font-size: 20px;
+    
+}
+.icones img{
+    border-radius: 100%;
+    height: 30px;
+    border:1.5px solid black;
+    padding: .05rem;
+    background-color: white;
+    border-color: rgb(175, 173, 173);;
+}
+.form-control{
+    border-radius: .15rem;
+    padding: 0%;
+    background-color: #8a8383;
+    text-align: center;
+    font-size: 15px;
+}
+section{
+    padding: 0px 70px 0 70px;
+}
+section .container{
+    background-color: white;
+    padding: 10px; 
+}
+
+
+
+.row{
+    margin:9px;
+}
+
+.img-profile {
+    border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%; 
+    max-width:200px; 
+    max-height:180px;
+    margin-left: 30px;
+    border-color: rgb(175, 173, 173);;
+}
+.col-2 {
+    flex: 0 0 auto;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+.col-3{
+    display: flex;
+    width: 30%;
+    margin-left: 50px;
+}
+.col-4{
+    width:15px;
+    height: 15px;
+}
+.col-7 {
+    flex: 0 0 auto;
+    width: 75%;
+    flex-direction: column;
+    font-size: 13px;
+}
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 0;
+}
+
+.username {
+    font-weight: 300; font-size: 24px;
+
+}
+.name{
+    font-size: 14px; display: inline; font-weight: bold !important;
+}
+
+.profile-datas {
+    font-size: 13px;
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin-bottom: 20px;
+
+    
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+}
+.profile-datas .publicacoes{
+    font-size: 14px;
+    margin-right: 35px;
+}
+.profile-datas .seguidores{
+    font-size: 14px;
+    margin-right: 35px;
+}
+.profile-datas .seguindo{
+    font-size: 14px;
+    margin-right: 35px;
+}
+.button-edit {
+    color: black !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    border-color: #dae1e7 !important;
+}
+
+.btn {
+    padding: .100rem .50rem !important;
+}
+.navbar-brand {
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-left: 30px;
+}
+.stories {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 0 0 0;
+    margin-left: 0;
+}
+
+.stories .foto-gamer {
+    margin-left: 65px;
+    border-radius: 100%;
+    width: 71px;
+    margin-top: 3px;
+    padding:0.2rem;
+    border: 1px solid rgb(175, 173, 173);
+}
+    
+
+.stories .foto-brother {
+    margin-left: 99px;
+    border-radius: 100%;
+    width: 71px;
+    margin-top: 3px;
+    padding:0.2rem;
+    border: 1px solid rgb(175, 173, 173);
+}
+.stories .foto-brother p {
+    text-align: center;
+}
+
+
+.stories .foto-photo {
+    margin-left: 136px;
+    border-radius: 100%;
+    width: 71px;
+    margin-top: 3px;
+    padding:0.2rem;
+    border: 1px solid rgb(175, 173, 173);
+}
+.stories .foto-photo {
+    margin-left: 133px;
+    border-radius: 100%;
+    width: 71px;
+    margin-top: 3px;
+    padding:0.2rem;
+    border: 1px solid rgb(175, 173, 173);
+}
+.stories .foto-luigi {
+    margin-left: 168px;
+    border-radius: 100%;
+    width: 70px;
+    margin-top: 3px;
+    padding:0.2rem;
+    border: 1px solid rgb(175, 173, 173);
+}
+.row .stories .nome-gamer p{
+    margin-left: 78px;
+}
+.row .stories .nome-brother p{
+    margin-left: 114px;
+}
+.row .stories .nome-photo p{
+    margin-left: 154px;
+}
+.row .stories .nome-luigi p{
+
+    margin-left: 187px;
+}
+
+.nav-tabs .nav-link-1 {
+    color: #a2a8af;
+    background-color: #fafafa !important;
+    border-color: #fff #fff #fff !important;
+    border-top-right-radius: .0rem !important;
+    border-top-left-radius: .0rem !important;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 430px;
+}
+
+.nav-link-2 {
+    color: #a2a8af;
+    background-color: #fafafa !important;
+    border-color: #fff #fff #fff !important;
+    border-top-right-radius: .0rem !important;
+    border-top-left-radius: .0rem !important;
+    font-size: 12px;
+    font-weight: 600;
+}
+.form-control {
+    border-radius: .15rem !important;
+    padding: 0% !important; 
+    background-color: #fafafa !important; 
+    text-align: center; 
+    font-size: 15px !important;
+}
+
+
+.card {
+    border: 0px solid rgba(0,0,0,.125) !important;
+    border-radius: .0rem !important;
+}
+
+.home-tab {
+    padding-left: 300px;
+}
+
+main{
+    padding: 0px 70px 0 70px;
+}
+main .container{
+    margin: 0 auto;
+    padding: 30px;
+    background: white;
+    display: flex;
+}
+main .container .fileira1{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container .fileira1 .foto1 img{
+    padding-right: 30px;
+    margin-left: 87px;
+    margin-bottom: 25px;
+    width: 290px;
+}
+.container .fileira1 .foto2 img{
+    margin-left: 87px;
+    padding-right: 30px;
+    margin-bottom: 25px;
+    width: 290px;
+}
+
+.container .fileira1 .foto3 img{
+    margin-left: 87px;
+    padding-right: 30px;
+    margin-bottom: 25px;
+    width: 290px;
+}
+
+.container .fileira1 .foto4 img{
+    margin-left: 87px;
+    padding-right: 30px;
+    margin-bottom: 25px;
+    width: 290px;
+}
+
+.container .fileira2 {
+    display: flex;
+    flex-direction: column;
+}
+.container .fileira2 .foto5 img{
+    padding-right: 30px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    width: 290px;
+}
+.container .fileira2 .foto6 img{
+    margin-left: 20px;
+    padding-right: 30px;
+    margin-bottom: 25px;
+    width: 290px;
+}
+.container .fileira2 .foto7 img{
+    margin-left: 20px;
+    padding-right: 30px;
+    margin-bottom: 25px;
+    width: 290px;
+}
+.container .fileira2 .foto8 img{
+    margin-left: 20px;
+    padding-right: 30px;
+    margin-bottom: 25px;
+    width: 290px;
+}
+.container .fileira3 {
+    display: flex;
+    flex-direction: column;
+}
+.container .fileira3 .foto9 img{
+    padding-right: 30px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    width: 290px;
+}
+.container .fileira3 .foto10 img{
+    margin-left: 20px;
+    padding-right: 30px;
+    margin-bottom: 25px;
+    width: 290px;
+}
+.container .fileira3 .foto11 img{
+    margin-left: 20px;
+    padding-right: 30px;
+    margin-bottom: 25px;
+    width: 290px;
+}
+
+
